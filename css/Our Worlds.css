@@ -1,0 +1,179 @@
+body {
+    background-color: #111111;
+}
+
+/* ============ Header =============== */
+
+.HeaderContainer {
+    width: 100vw;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #111111;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.menu {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-right: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.MenuItem{
+    color: white;
+    text-decoration: none;
+}
+
+.NavBar {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* ============ Middle =============== */
+.MiddleContainer{
+    width: 100vw;
+    height: 350vh;
+    background-color: #111111;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.ImageItem {
+    width: 23.5%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.Img {
+    width: 100%;
+    height: 70%;
+}
+
+#img{
+    width: 100%;
+    height: 100%;
+}
+
+.labelBox {
+    width: 100%;
+    height: 20%;
+    background-color: #111111;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text{
+    width: 100%;
+    height: 10%;
+    background-color: #111111;
+    color: white;
+    display: flex; 
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 0.5;
+}
+
+.black{
+    width: 100%;
+    height: 15%;
+    background-color: #111111;
+}
+
+/* ============ Footer =============== */
+
+
+.FooterContainer {
+    width: 100vw;
+    height: 60vh;
+    background-color: #161F1E;
+    display: flex;
+    flex-direction: row;
+}
+
+.FooterCol1 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.FooterCol2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.FooterLogo {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    color: white;
+    align-items: center;
+    padding-left: 150px;
+}
+
+.Copyright {
+    width: 100%;
+    height: 20%;
+    color: white;
+    display: flex;
+    padding-left: 150px;
+    align-items: center;
+    opacity: 50%;
+    font-size: small;
+}
+
+.Col1 {
+    width: 33.2%;
+    height: 50%;
+    color: white;
+    flex-direction: column;
+    display: flex;
+}
+
+.ColItem {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    text-decoration: none;
+    color: white;
+}
+
+.ColItem1 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    opacity: 70%;
+}

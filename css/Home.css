@@ -1,0 +1,444 @@
+.HeaderContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.videoPlayer {
+    position: relative;
+    bottom: 150px;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .video-player{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    .video-player{
+        width: auto;
+        height: 100%;
+    }
+}
+
+
+.NavBar {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+
+.menu {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 30px;
+    right: 150px;
+}
+
+.MenuItem {
+    color: white;
+    text-decoration: none;
+}
+
+.Heading {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    font-size: 70px;
+    font-weight: 100;
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    color: white;
+}
+
+#text1{
+    color: white;
+    font-size: 70px;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.white1{
+    width: 100vw;
+    height: 15vh;
+    background-color: white;
+}
+
+.white2{
+    width: 100vw;
+    height: 40vh;
+    background-color: white;
+}
+
+
+.DesignContainer2{
+    width: 100vw;
+    height: 140vh;
+    background-color: white;
+    background-image: url(../Assets/Home/MountainBG.jpg);
+    display: flex;
+    flex-direction: row-reverse;
+    background-size: cover;
+    background-position: center;
+}
+
+.LongImg2{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+.ShortImg2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ShortImg-Text2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ShortImg-Img2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ShortImg-Heading2{
+    font-size: 40px;
+    color: black;
+    display: flex;
+    padding-left: 200px;
+}
+
+#WhitePara2{
+    display: flex;
+    color: black;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 200px;
+    padding-top: 50px;
+    padding-right: 150px;
+    display: flex;
+    line-height: 200%;
+}
+
+#shortimg2{
+    width: 60%;
+    height: 55%;
+    padding-top: 250px;
+    padding-left: 200px;
+}
+
+.golbeContainer{
+    width: 100vw;
+    height: 170vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.GlobeText{
+    width: 100%;
+    height: 35%;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: row;
+}
+
+.GlobeBlank{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#GlobeHeading{  
+    font-size: 40px;
+    padding-left: 100px;
+}
+
+#GlobeText{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 50px;
+    line-height: 200%;
+}
+
+.Locations{
+    width: 70%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+#locations{ 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.GlobeImg{
+    width: 100%;
+    height: 65%;
+    background-image: url(../Assets/Home/globe.jpg);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-color: #f3f3f3 ;
+    display: flex;
+    flex-direction: row;
+}
+
+.GlobeImgSection{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+}
+
+.BlackBox{
+    width: 900px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    background-color: #161f1e;
+    z-index: 1;
+}
+
+.BlakBoxContent{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.arrows{
+    width: 50%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.BlackLocation{
+    width: 70%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.BlackText{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+#BlackText{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    opacity: 0.5;
+}
+
+.BlackHeading{
+    width: 95%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+#BlackHeading{
+    font-size: 40px;
+    color: white;
+}
+
+.coordinates{
+    width: 90%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#GlobeImg{
+    z-index: 2;
+    position: absolute;
+    bottom: 250px;
+    left: 400px;
+}
+
+.BottomContainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.BottomImg1{
+    width: 33%;
+    height: 100%;
+    background-image: url("../Assets/Home/exp.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(70%);
+}
+
+.BottomImg2{
+    width: 33%;
+    height: 100%;
+    background-image: url("../Assets/Home/lifestyle.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(70%);
+}
+
+.BottomImg3{
+    width: 33%;
+    height: 100%;
+    background-image: url("../Assets/Home/wellness.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(70%);
+}
+
+#BottomText{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: 100;
+    padding-bottom: 30px;
+}
+
+/* Footer */
+
+.FooterContainer {
+    width: 100vw;
+    height: 60vh;
+    background-color: #161F1E;
+    display: flex;
+    flex-direction: row;
+}
+
+.FooterCol1 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.FooterCol2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.FooterLogo {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    color: white;
+    align-items: center;
+    padding-left: 150px;
+}
+
+.Copyright {
+    width: 100%;
+    height: 20%;
+    color: white;
+    display: flex;
+    padding-left: 150px;
+    align-items: center;
+    opacity: 50%;
+    font-size: small;
+}
+
+.Col1 {
+    width: 33.2%;
+    height: 50%;
+    color: white;
+    flex-direction: column;
+    display: flex;
+}
+
+.ColItem {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    text-decoration: none;
+    color: white;
+}
+
+.ColItem1 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    opacity: 70%;
+}
